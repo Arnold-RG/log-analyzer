@@ -1,0 +1,37 @@
+# SYNTHETIC SAMPLE - generated for demos/tests. Hosts, users and IPs are fictional
+# (IPs are from the RFC 5737 documentation ranges 192.0.2.0/24, 198.51.100.0/24, 203.0.113.0/24).
+Nov 10 08:00:01 demo-server sshd[1001]: Accepted publickey for alice from 192.0.2.10 port 50122 ssh2: ED25519 SHA256:SYNTHETICKEYFINGERPRINTEXAMPLE0000000000
+Nov 10 08:00:01 demo-server sshd[1001]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov 10 09:15:10 demo-server sshd[2000]: Invalid user admin from 203.0.113.50 port 40000
+Nov 10 09:15:10 demo-server sshd[2000]: Failed password for invalid user admin from 203.0.113.50 port 40000 ssh2
+Nov 10 09:15:13 demo-server sshd[2001]: Failed password for root from 203.0.113.50 port 40001 ssh2
+Nov 10 09:15:16 demo-server sshd[2002]: Invalid user test from 203.0.113.50 port 40002
+Nov 10 09:15:16 demo-server sshd[2002]: Failed password for invalid user test from 203.0.113.50 port 40002 ssh2
+Nov 10 09:15:19 demo-server sshd[2003]: Invalid user oracle from 203.0.113.50 port 40003
+Nov 10 09:15:19 demo-server sshd[2003]: Failed password for invalid user oracle from 203.0.113.50 port 40003 ssh2
+Nov 10 09:15:22 demo-server sshd[2004]: Failed password for ubuntu from 203.0.113.50 port 40004 ssh2
+Nov 10 09:15:25 demo-server sshd[2005]: Failed password for root from 203.0.113.50 port 40005 ssh2
+Nov 10 09:15:28 demo-server sshd[2006]: Invalid user pi from 203.0.113.50 port 40006
+Nov 10 09:15:28 demo-server sshd[2006]: Failed password for invalid user pi from 203.0.113.50 port 40006 ssh2
+Nov 10 09:15:31 demo-server sshd[2007]: Invalid user admin from 203.0.113.50 port 40007
+Nov 10 09:15:31 demo-server sshd[2007]: Failed password for invalid user admin from 203.0.113.50 port 40007 ssh2
+Nov 10 09:15:34 demo-server sshd[2008]: Invalid user guest from 203.0.113.50 port 40008
+Nov 10 09:15:34 demo-server sshd[2008]: Failed password for invalid user guest from 203.0.113.50 port 40008 ssh2
+Nov 10 09:15:37 demo-server sshd[2009]: Failed password for root from 203.0.113.50 port 40009 ssh2
+Nov 10 09:15:40 demo-server sshd[2010]: Invalid user postgres from 203.0.113.50 port 40010
+Nov 10 09:15:40 demo-server sshd[2010]: Failed password for invalid user postgres from 203.0.113.50 port 40010 ssh2
+Nov 10 09:15:43 demo-server sshd[2011]: Failed password for root from 203.0.113.50 port 40011 ssh2
+Nov 10 09:16:00 demo-server sshd[2050]: message repeated 3 times: [ Failed password for root from 203.0.113.50 port 40099 ssh2]
+Nov 10 09:16:01 demo-server sshd[2050]: Disconnecting authenticating user root 203.0.113.50 port 40099: Too many authentication failures [preauth]
+Nov 10 10:02:11 demo-server sshd[3001]: Failed password for bob from 198.51.100.23 port 51515 ssh2
+Nov 10 10:02:15 demo-server sshd[3001]: Failed password for bob from 198.51.100.23 port 51515 ssh2
+Nov 10 10:02:20 demo-server sshd[3001]: Failed password for bob from 198.51.100.23 port 51515 ssh2
+Nov 10 10:02:26 demo-server sshd[3001]: Accepted password for bob from 198.51.100.23 port 51515 ssh2
+Nov 10 10:30:00 demo-server sshd[3100]: Invalid user deploy from 198.51.100.77 port 60001
+Nov 10 10:30:01 demo-server sshd[3100]: Connection closed by invalid user deploy 198.51.100.77 port 60001 [preauth]
+Nov 10 11:00:00 demo-server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 10 11:05:00 demo-server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Nov 10 11:20:00 demo-server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1001 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Nov 10 11:20:09 demo-server sudo:      bob : 3 incorrect password attempts ; TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Nov 10 11:21:00 demo-server sudo:      bob : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/bash
+Nov 10 12:00:00 demo-server sshd[4000]: Accepted publickey for alice from 192.0.2.10 port 50200 ssh2: ED25519 SHA256:SYNTHETICKEYFINGERPRINTEXAMPLE0000000000
