@@ -237,3 +237,17 @@ personal data (they contain usernames and IP addresses).
 ## License
 
 [MIT](LICENSE) - Copyright (c) 2026 Arnold Rurangwa
+
+---
+
+## Maintainer security, data and quality gates
+
+Security and authentication logs may contain usernames, IP addresses, device identifiers and investigative evidence. Use this tool only with authorization to access those records.
+
+- **Privacy:** avoid committing actual customer logs, redact exports where feasible and enforce a reasonable retention policy.
+- **Integrity:** do not mutate source logs; preserve event timestamps and provenance in reports.
+- **Detection quality:** use the included synthetic fixtures to test threshold boundaries, duplicate events, parse failures and success-after-failure correlations.
+- **Cross-platform behavior:** keep Windows event IDs and Linux auth-log patterns documented separately; consider locale, rotation and missing privileges.
+- **Release verification:** test exit codes and structured output formats, document false-positive/false-negative limits and review dependency changes.
+
+Monitoring results are investigatory signals rather than proof that a breach occurred.
